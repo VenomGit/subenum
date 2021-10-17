@@ -3,6 +3,7 @@ import requests
 
 #function for scanning subdomain
 def scanner(domainName,subDomain):
+    print("---- Starting The Enumerator ----")
     print("---- URL after scanning subdomains ----")
 
     #looping for getting URL's
